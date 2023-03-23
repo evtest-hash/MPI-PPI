@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Hackintosh" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>参考资料 - MPI&PPI 协议</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "\u53c2\u8003\u8d44\u6599";
+        var mkdocs_page_input_path = "4.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="index.html" class="icon icon-home"> MPI&PPI 协议
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="index.html">主页</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="1.html">协议介绍</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="2.html">协议细节</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="3.html">协议实现</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="4.html">参考资料</a>
+    <ul class="current">
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MPI&PPI 协议</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html" class="icon icon-home" alt="Docs"></a> &raquo;</li><li>参考资料</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="_1">参考资料</h1>
+<ul>
+<li><a href="attachments/PPI_Protocol_Siemens_%E5%8A%A0%E7%9B%AE%E5%BD%95%E7%89%88.pdf">西门子PPI协议手册</a></li>
+<li><a href="attachments/PPI%E9%80%9A%E4%BF%A1%E4%BB%8B%E7%BB%8D%20-%20%E5%91%A8%E4%BA%91%E5%AE%87.ppt">PPI通信介绍</a></li>
+<li><a href="attachments/Dp_2004_trnka_pavel.pdf">Profibus Master 捷克语手册</a></li>
+<li><a href="attachments/Dp_2004_trnka_pavel.cs.en.pdf">Profibus Master 机翻英文手册</a></li>
+<li><a href="https://www.felser.ch/profibus-manual/index.html">PROFIBUS Manual</a></li>
+<li><a href="attachments/SIEMENS_MPI_2MASTER_1SLAVE.dsl">西门子MPI通信逻辑分析仪抓包</a></li>
+<li><a href="attachments/MCGS_PPI_19200.dsl">昆仑通态PPI通信 逻辑分析仪抓包</a></li>
+</ul>
+<p>Tips:</p>
+<ul>
+<li>
+<p><strong>西门子PPI协议手册是关于MPI&amp;PPI协议细节方面最详细的手册，如果需要深入理解MPI&amp;PPI的通信细节，必须完整看望这本手册</strong></p>
+</li>
+<li>
+<p>PPI通信介绍 公司内部的PPT讲座资料，可以对MPI&amp;PPI 有大致的了解</p>
+</li>
+<li>Profibus Master 捷克语手册 虽然是讲Profibus，但是内容和MPI是极其相似的（MPI就是基于PROFIBUS魔改的),手册中 2.2.3 节 对MPI状态机转移条件有很清晰的描述，对编写理解MPI代码有很大的作用，原版是捷克语，如果需要看的话可以文字看英文翻译版，图片看捷克语原版（因为机翻把图片上的文字的排版弄得有点奇怪，英文版的图片排版不太好看）</li>
+<li>PROFIBUS Manual 这个网站里面协议细节图片解释非常丰富，对理解MPI&amp;PPI 帮助很大</li>
+<li><a href="attachments/SIEMENS_MPI_2MASTER_1SLAVE.dsl">西门子MPI</a> 和 <a href="attachments/MCGS_PPI_19200.dsl">昆仑通态PPI</a> 这个两个抓包文件为dsl格式的，需要通过逻辑分析仪对应的软件打开，网址为<a href="https://www.dreamsourcelab.com/software/DSView_v1.2.1_x64_setup.exe">DSVIEW</a>,安装好后会有一个DSVIEW的软件，如下所示打开抓包文件即可，就可以看到直观的MPI&amp;PPI通信流。
+  <img alt="images" src="imgs/DSVIEW.png" /></li>
+</ul>
+<p><center>DSVIEW 打开DSL文件</center></p>
+<p><img alt="images" src="imgs/WAVE.png" /></p>
+<p><center>DSVIEW 查看逻辑波形</center></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="3.html" class="btn btn-neutral float-left" title="协议实现"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Co-Trust Inc</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="3.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
